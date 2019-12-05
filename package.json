@@ -1,0 +1,40 @@
+{
+    "name": "divinity-language-behaviorscripting",
+    "displayName": "Divinity Behavior Scripting Language",
+    "description": "Syntax highlighting for Divinity: Original Sin 2 behavior scripting files.",
+	"author": "LaughingLeader",
+	"license": "MIT",
+    "version": "1.0.0",
+	"publisher": "divinity-language-behaviorscripting",
+	"keywords": [
+		"Divinity Engine",
+        "Scripting",
+        "Divinity: Original Sin 2"
+	],
+    "engines": {
+        "vscode": "^1.36.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "divinity-behavior-scripting",
+            "aliases": ["Divinity Behavior Scripting", "divinity-behavior-scripting"],
+            "extensions": [".charscript", ".itemScript", ".gameScript"],
+            "filenamePatterns": [
+                "**/Scripts/*.charscript",
+                "**/Scripts/*.itemScript",
+                "**/Scripts/*.gameScript"
+            ],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [
+            {
+                "language": "divinity-behavior-scripting",
+                "scopeName": "source.divinityBehaviorScripting",
+                "path": "./syntaxes/divinity-behavior-scripting.tmLanguage.json"
+            }
+        ]
+    }
+}

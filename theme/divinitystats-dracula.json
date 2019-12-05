@@ -1,0 +1,30 @@
+{
+    "name": "Divinity - Dracula",
+    "author": "LaughingLeader",
+    "tokenColors": [
+        {
+            "scope": ["support.divinitystats.entry"],
+            "settings": {
+                "foreground": "#A4FFFF"
+            }
+        },
+        {
+            "scope": ["support.divinitystats.entry.value"],
+            "settings": {
+                "foreground": "#50FA7B"
+            }
+        },
+        {
+            "scope": ["support.divinitystats.data.type"],
+            "settings": {
+                "foreground": "#BD93F9"
+            }
+        },
+        {
+            "scope": ["support.divinitystats.data.value"],
+            "settings": {
+                "foreground": "#FF79C6"
+            }
+        }
+    ]
+}
